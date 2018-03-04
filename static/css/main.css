@@ -708,6 +708,8 @@ section.main .content .markdown blockquote p:last-child {
 section.main .content .markdown img {
   margin: 1rem 0;
   max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 section.main .content .markdown table {
   margin-bottom: 1rem;
