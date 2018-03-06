@@ -60,6 +60,15 @@ body {
   line-height: 1.6;
   text-rendering: optimizeLegibility !important;
 }
+.hide {
+  display: none;
+}
+.CommentoArea {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 10px;
+}
 @media (min-width: 600px) {
   body {
     -webkit-justify-content: center;
@@ -693,8 +702,8 @@ section.main .content .markdown abbr[title] {
 section.main .content .markdown blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  color: black;
+  border-left: 7px solid gray;
 }
 section.main .content .markdown blockquote p:last-child {
   margin-bottom: 0;
@@ -706,10 +715,9 @@ section.main .content .markdown blockquote p:last-child {
   }
 }
 section.main .content .markdown img {
-  margin: 1rem 0;
   max-width: 100%;
   display: block;
-  margin: 0 auto;
+  margin: 3em auto;
 }
 section.main .content .markdown table {
   margin-bottom: 1rem;
